@@ -1,89 +1,137 @@
 *{
-    box-sizing: border-box;
-}
-
-body{
     margin: 0;
-
-    background-color: aliceblue;
-    color: black;
-
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    line-height: 1.6;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-h1, h2, h3{
-    color: #123a63;
+body {
+  background-color: #ffffff;
+  color: #123543;
+  font-size: 16px;
+  line-height: 1.6;
 }
-h1{
-    font-size: 38px;
+
+h1 {
+  font-size: 26px;
+  color: #123543;
+  margin-bottom: 12px;
+}
+
+h2 {
+  font-size: 20px;
+  color: #123543;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 18px;
+  color: #123543;
+  margin-bottom: 8px;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+header {
+  background-color: #73a9e0;
+  color: #ffffff;
+  padding: 15px 0;
+  border-bottom: 2px solid #73a9e0;
+}
+
+.lista-simples{ 
+    margin-left: 20px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
-h2{
-    font-size: 26px;
-}
-h3{
-    font-size: 20px;
-}
 
-.container{
-    width: 90%;
-    max-width: 1000px;
-
-    margin: 0 auto;
+ol.lista-passos {
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.imagens{
-    width: 500px;
-    float: right;
-    margin-bottom: auto;
-}
-
-.cabecalho{
-    background-color: #0e1821;
-    color: aliceblue;
-
-    padding: 30px 0;
-}
-
-.guia{
-    margin-bottom: 5px;
-
-    color: #123a63;
-
-    font-size: 20px;
-    font-weight: bold;
-    letter-spacing: 4px;
-}
-
-.subtitulo{
-    max-width: 700px;
-}
-
-
-.menu-lista{
-    margin: 20px 0 0;
-    padding: 0;
+nav ul{
     list-style: none;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
-.menu-lista li{
-    display: inline-block;
-    
-    margin-right: 8px;
-    margin-bottom: 8px;
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 14px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
 }
 
-.menu-link{
-    display: inline-block;
-    padding: 8px 12px;
+.secao-titulo {
+  margin-top: 25px;
+  margin-bottom: 12px;
+  border-bottom: 2px solid #0a2540;
+  padding-bottom: 5px;
+}
 
-    background-color: #fff;
-    color:#123a63;
+.caixa-azul h2, h3{
+    color: #ffffff;
+}
 
-    border: 1px solid #ccc2c2;
-    border-radius: 5px;
+.caixa-azul {
+  background-color: #0a2540;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
 
-    text-decoration: none;
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #0a2540;
+}
+
+th {
+  background-color: #0a2540;
+  color: #ffffff;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #0a2540;
+}
+
+td {
+  padding: 10px;
+  color: #0a2540;
+  border: 1px solid #0a2540;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  background-color: #73a9e0;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
 }
